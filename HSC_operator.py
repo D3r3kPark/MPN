@@ -19,7 +19,7 @@ initial_pops = [H_0, P_L_0, P_M_0, IL_0, IM_0, L_0, M_0]
 
 m = hmod.HSC_model(initial_pops)
 
-H1, PL1, PM1, IL1, IM1, L1, M1 = m.run(1000, 0)
+H1, PL1, PM1, IL1, IM1, L1, M1 = m.run(1000, 1)
 
 
 
@@ -85,7 +85,7 @@ if(run_invasion_two_params):
     plt.show(block=True)
 
 
-run_invasion_one_param = 1
+run_invasion_one_param = 0
 
 if(run_invasion_one_param):
 
